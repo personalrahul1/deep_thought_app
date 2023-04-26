@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1500">
+        <KeyFrameSet></KeyFrameSet>
+        <OnClick motion:targetId="@id/fullDetailSlideActionImv" />
+        <OnSwipe motion:dragDirection="dragLeft" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start"></ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:id="@+id/cardView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_minus35sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            motion:layout_constraintEnd_toStartOf="parent"
+            motion:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/cardView5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/fullDetailSlideActionImv" />
+        <Constraint
+            android:id="@+id/fullDetailSlideActionImv"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="@dimen/_18sdp"
+            android:rotationY="180"
+            motion:layout_constraintBottom_toBottomOf="@id/cardView4"
+            motion:layout_constraintStart_toEndOf="@id/cardView4"
+            motion:layout_constraintTop_toTopOf="@id/cardView4" />
+    </ConstraintSet>
+</MotionScene>
