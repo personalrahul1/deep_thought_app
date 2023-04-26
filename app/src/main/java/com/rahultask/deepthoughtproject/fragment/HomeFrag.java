@@ -66,7 +66,6 @@ public class HomeFrag extends Fragment {
         fLoadingDialog.show();
         makeCancellable();
 
-        jsonResPojoObjList.clear();
         new NetworkRequestTask().execute("https://dev.deepthought.education/assets/uploads/files/others/project.json");
 
         homeFragV.findViewById(R.id.mainRefreshIcon).setOnClickListener(view -> {
@@ -74,7 +73,6 @@ public class HomeFrag extends Fragment {
             dialogText.setText("Loading...");
             fLoadingDialog.show();
             makeCancellable();
-            jsonResPojoObjList.clear();
             new NetworkRequestTask().execute("https://dev.deepthought.education/assets/uploads/files/others/project.json");
         });
 
@@ -181,6 +179,7 @@ public class HomeFrag extends Fragment {
             super.onPostExecute(response);
             //Parse the response as JSON
             try {
+                jsonResPojoObjList.clear();
                 JSONObject jsonObject = new JSONObject(response);
                 System.out.println(jsonObject + "");
                 renderValues(response);
