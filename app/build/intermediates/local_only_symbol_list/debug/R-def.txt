@@ -5,6 +5,7 @@ array com_google_android_gms_fonts_certs_dev
 array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color black
+color ic_launcher_background
 color white
 drawable avatar_girl
 drawable avatar_man_boy_nod
@@ -121,6 +122,7 @@ layout fragment_home
 layout loading_dialog
 layout recycler_view_layout
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 string demo_strin

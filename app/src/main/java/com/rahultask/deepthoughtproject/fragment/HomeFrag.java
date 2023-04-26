@@ -35,7 +35,7 @@ public class HomeFrag extends Fragment {
 
     public static AlertDialog fLoadingDialog;
     View homeFragV;
-    ArrayList<JsonResPojoObj> jsonResPojoObjs = new ArrayList<>();
+    ArrayList<JsonResPojoObj> jsonResPojoObjList = new ArrayList<>();
     RecyclerView recyclerView;
     EditText searchEt;
     CardView searchCv;
@@ -66,12 +66,15 @@ public class HomeFrag extends Fragment {
         fLoadingDialog.show();
         makeCancellable();
 
+        jsonResPojoObjList.clear();
         new NetworkRequestTask().execute("https://dev.deepthought.education/assets/uploads/files/others/project.json");
+
         homeFragV.findViewById(R.id.mainRefreshIcon).setOnClickListener(view -> {
             fLoadingDialog.setCancelable(false);
             dialogText.setText("Loading...");
             fLoadingDialog.show();
             makeCancellable();
+            jsonResPojoObjList.clear();
             new NetworkRequestTask().execute("https://dev.deepthought.education/assets/uploads/files/others/project.json");
         });
 
@@ -99,7 +102,7 @@ public class HomeFrag extends Fragment {
             @Override
             public void afterTextChanged(Editable editable) {
                 ArrayList<JsonResPojoObj> filteredList = new ArrayList<>();
-                for (JsonResPojoObj item : jsonResPojoObjs) {
+                for (JsonResPojoObj item : jsonResPojoObjList) {
                     String toLookInto = item.getTaskTitle() + item.getShortDescription();
                     if (toLookInto.toLowerCase().contains(editable.toString().toLowerCase())) {
                         filteredList.add(item);
@@ -129,7 +132,7 @@ public class HomeFrag extends Fragment {
             JSONArray learningOutcomes = item.getJSONArray("learning_outcomes");
             JSONArray preRequisites = item.getJSONArray("pre_requisites");
 
-            jsonResPojoObjs.add(new JsonResPojoObj(dataId, shortDescription, taskDescription, taskTitle, picture,
+            jsonResPojoObjList.add(new JsonResPojoObj(dataId, shortDescription, taskDescription, taskTitle, picture,
                     category, fullName, preRequisites, learningOutcomes));
 
             for (int j = 0; j < learningOutcomes.length(); j++) {
@@ -152,7 +155,7 @@ public class HomeFrag extends Fragment {
         if (fLoadingDialog != null && fLoadingDialog.isShowing()) {
             fLoadingDialog.dismiss();
         }
-        recViewAdapter = new CustomRecViewAdapter(homeFragV.getContext(), jsonResPojoObjs, jsonData);
+        recViewAdapter = new CustomRecViewAdapter(homeFragV.getContext(), jsonResPojoObjList, jsonData);
         recyclerView.setAdapter(recViewAdapter);
         recViewAdapter.notifyDataSetChanged();
     }
@@ -187,5 +190,4 @@ public class HomeFrag extends Fragment {
             }
         }
     }
-
 }

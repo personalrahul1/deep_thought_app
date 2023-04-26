@@ -134,6 +134,13 @@ public class CustomRecViewAdapter extends RecyclerView.Adapter<CustomRecViewAdap
         notifyDataSetChanged();
     }
 
+
+    public void setData(ArrayList<JsonResPojoObj> itemList) {
+        jsonResPojoObjFull.clear();
+        jsonResPojoObjFull.addAll(itemList);
+        notifyDataSetChanged();
+    }
+
     public static class CustomViewHolder extends RecyclerView.ViewHolder {
 
         TextView titleTv, titleDesTv, learnOutTv, learnOutDesTv, preReqTv, preReqDesTv, exploreBtnTv, fullNameTv;
