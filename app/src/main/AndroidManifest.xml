@@ -16,7 +16,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScAct"
             android:exported="true"
             android:screenOrientation="portrait"
             tools:ignore="LockedOrientationActivity">
@@ -26,6 +26,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity" />
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

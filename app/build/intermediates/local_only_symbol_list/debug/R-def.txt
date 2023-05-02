@@ -30,12 +30,12 @@ drawable top_corners
 drawable zoom_search
 font roboto
 font roboto_bold
-id cardView
 id cardView2
 id cardView3
 id cardView4
 id cardView48943
 id cardView5
+id cardView6
 id dtlogo
 id end
 id fullDetaiRecImvTv
@@ -88,9 +88,12 @@ id loadingDialogGifImv
 id loadingDialogRootLayout
 id loadingDialogTv
 id mainDashBtnTv
+id mainDtName0
+id mainDtName1
 id mainExpBtnTv
 id mainFragCv
 id mainHomeCv
+id mainLogoCv
 id mainPageRecView
 id mainRefreshIcon
 id mainSocialBtnTv
@@ -107,8 +110,10 @@ id scrollView2
 id searchCv
 id searchEt
 id searchIcon
+id splLogImv
+id splScName0
+id splScName1
 id start
-id textView
 id textView2
 id textView4
 id textView5
@@ -117,6 +122,7 @@ id view
 id view2
 id view3
 layout activity_main
+layout activity_splash_sc
 layout fragment_full_details
 layout fragment_home
 layout loading_dialog

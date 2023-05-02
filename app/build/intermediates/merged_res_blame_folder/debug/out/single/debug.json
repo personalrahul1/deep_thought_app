@@ -4,36 +4,24 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxhdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_dt_logo.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\dt_logo.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-mdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_top_corners.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\top_corners.xml"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_picturellandscape_gallery.gif.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\picturellandscape_gallery.gif"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_top_corners.xml.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\top_corners.xml"
-    },
-    {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\layout_fragment_home.xml.flat",
@@ -48,12 +36,12 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\dot_3_top_menu.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/layout_activity_splash_sc.xml.flat",
+        "source": "com.rahultask.deepthoughtproject.app-main-34:/layout/activity_splash_sc.xml"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\layout_loading_dialog.xml.flat",
@@ -62,10 +50,6 @@
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_notification_bell.gif.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\notification_bell.gif"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_settings.gif.flat",
@@ -80,10 +64,6 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\layout\\recycler_view_layout.xml"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_bottom_corners.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\bottom_corners.xml"
     },
@@ -92,16 +72,8 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\avatar_girl.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/layout_loading_dialog.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/layout/loading_dialog.xml"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_avatar_man_boy_nod.gif.flat",
@@ -116,12 +88,8 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\refresh_green_icon.gif"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_tool_setting.gif.flat",
@@ -136,16 +104,16 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\loader_blue.gif"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\layout_activity_splash_sc.xml.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\layout\\activity_splash_sc.xml"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_error_no_image.png.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\error_no_image.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -156,32 +124,24 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\layout\\fragment_full_details.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\font_roboto.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\font\\roboto.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/drawable_baseline_arrow_back_ios_24.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/drawable/baseline_arrow_back_ios_24.xml"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/font_roboto.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/font/roboto.xml"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_home.gif.flat",
@@ -196,40 +156,24 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-mdpi/ic_launcher.png"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/drawable_baseline_arrow_forward_ios_24.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/drawable/baseline_arrow_forward_ios_24.xml"
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\drawable_baseline_calendar_month_24.xml.flat",
@@ -248,23 +192,11 @@
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\font\\roboto_bold.xml"
     },
     {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/drawable_dot_3_top_menu.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/drawable/dot_3_top_menu.xml"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/drawable_baseline_calendar_month_24.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/drawable/baseline_calendar_month_24.xml"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "com.rahultask.deepthoughtproject.app-merged_res-32:/font_roboto_bold.xml.flat",
-        "source": "com.rahultask.deepthoughtproject.app-main-34:/font/roboto_bold.xml"
-    },
-    {
         "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\xml_fragment_full_details_scene.xml.flat",
         "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\xml\\fragment_full_details_scene.xml"
+    },
+    {
+        "merged": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\dell\\.gradle\\daemon\\8.0\\com.rahultask.deepthoughtproject.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     }
 ]

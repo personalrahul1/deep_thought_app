@@ -24,11 +24,12 @@
             android:layout_height="match_parent">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/cardView"
+                android:id="@+id/mainLogoCv"
                 android:layout_width="@dimen/_30sdp"
                 android:layout_height="@dimen/_30sdp"
                 android:layout_marginStart="@dimen/_3sdp"
                 android:tooltipText="Company Logo"
+                android:transitionName="logoTName"
                 app:cardCornerRadius="@dimen/_15sdp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -42,7 +43,7 @@
             </androidx.cardview.widget.CardView>
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/mainDtName0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_2sdp"
@@ -50,11 +51,13 @@
                 android:text="DEEP"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_14ssp"
-                app:layout_constraintBottom_toBottomOf="@+id/cardView"
-                app:layout_constraintStart_toEndOf="@id/cardView"
-                app:layout_constraintTop_toTopOf="@id/cardView" />
+                android:transitionName="name0TName"
+                app:layout_constraintBottom_toBottomOf="@+id/mainLogoCv"
+                app:layout_constraintStart_toEndOf="@id/mainLogoCv"
+                app:layout_constraintTop_toTopOf="@id/mainLogoCv" />
 
             <TextView
+                android:id="@+id/mainDtName1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/_1sdp"
@@ -63,9 +66,10 @@
                 android:textColor="#0028FF"
                 android:textSize="@dimen/_14ssp"
                 android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="@+id/cardView"
-                app:layout_constraintStart_toEndOf="@+id/textView"
-                app:layout_constraintTop_toTopOf="@id/cardView" />
+                android:transitionName="name1TName"
+                app:layout_constraintBottom_toBottomOf="@+id/mainLogoCv"
+                app:layout_constraintStart_toEndOf="@+id/mainDtName0"
+                app:layout_constraintTop_toTopOf="@id/mainLogoCv" />
 
             <ImageView
                 android:id="@+id/imageView"
@@ -74,18 +78,18 @@
                 android:layout_marginEnd="@dimen/_3sdp"
                 android:src="@drawable/dot_3_top_menu"
                 android:tooltipText="Menu Options"
-                app:layout_constraintBottom_toBottomOf="@id/cardView"
+                app:layout_constraintBottom_toBottomOf="@id/mainLogoCv"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="@id/cardView" />
+                app:layout_constraintTop_toTopOf="@id/mainLogoCv" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:orientation="horizontal"
                 android:padding="@dimen/_2sdp"
-                app:layout_constraintBottom_toBottomOf="@id/cardView"
+                app:layout_constraintBottom_toBottomOf="@id/mainLogoCv"
                 app:layout_constraintEnd_toStartOf="@+id/imageView"
-                app:layout_constraintTop_toTopOf="@id/cardView">
+                app:layout_constraintTop_toTopOf="@id/mainLogoCv">
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/mainHomeCv"

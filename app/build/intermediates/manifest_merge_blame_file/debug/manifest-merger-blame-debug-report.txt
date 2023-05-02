@@ -26,7 +26,7 @@
 17-->[androidx.core:core:1.9.0] C:\Users\dell\.gradle\caches\transforms-3\70b66a325a96f034f7722788637e67de\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 18
 19    <application
-19-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:7:5-30:19
+19-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:7:5-38:19
 20        android:allowBackup="true"
 20-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:8:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -51,51 +51,61 @@
 32        android:usesCleartextTraffic="true" >
 32-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:16:9-44
 33        <activity
-33-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:18:9-26:20
-34            android:name="com.rahultask.deepthoughtproject.MainActivity"
-34-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:19:13-41
-35            android:exported="true" >
+33-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:18:9-28:20
+34            android:name="com.rahultask.deepthoughtproject.SplashScAct"
+34-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:19:13-40
+35            android:exported="true"
 35-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:20:13-36
-36            <intent-filter>
-36-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:21:13-25:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:22:17-69
-37-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:22:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:24:17-77
-39-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:24:27-74
-40            </intent-filter>
-41        </activity>
-42
-43        <meta-data
-43-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:27:9-29:57
-44            android:name="preloaded_fonts"
-44-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:28:13-43
-45            android:resource="@array/preloaded_fonts" />
-45-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:29:13-54
-46
-47        <provider
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-49            android:authorities="com.rahultask.deepthoughtproject.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-51            <meta-data
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-57        </provider>
-58    </application>
-59
-60</manifest>
+36            android:screenOrientation="portrait" >
+36-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:21:13-49
+37            <intent-filter>
+37-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:23:13-27:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:24:17-69
+38-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:26:17-77
+40-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:26:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:29:9-33:56
+44            android:name="com.rahultask.deepthoughtproject.MainActivity"
+44-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:30:13-41
+45            android:exported="false"
+45-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:31:13-37
+46            android:screenOrientation="portrait" />
+46-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:32:13-49
+47
+48        <meta-data
+48-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:35:9-37:57
+49            android:name="preloaded_fonts"
+49-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:36:13-43
+50            android:resource="@array/preloaded_fonts" />
+50-->D:\Rahul\Android\DeepThoughtProject\app\src\main\AndroidManifest.xml:37:13-54
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.rahultask.deepthoughtproject.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dell\.gradle\caches\transforms-3\f3c72f5866d9356b2f09528957ee5f6e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dell\.gradle\caches\transforms-3\a64c9ce05de7aa78bec624ef6280c728\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
